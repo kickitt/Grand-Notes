@@ -1,17 +1,14 @@
 //
-//  CollectionController.swift
+//  UserCollectionView.swift
 //  Grand Notes
 //
-//  Created by Roman Berezin on 13.10.2020.
+//  Created by Roman Berezin on 16.10.2020.
 //
 
 import UIKit
 
-class CollectionController: CollectionViewController {
-    
-}
-
-extension CollectionController: UICollectionViewDataSource {
+class NotesCollectionView: UIView, UICollectionViewDelegate, UICollectionViewDataSource {
+  
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 1
     }
@@ -20,11 +17,4 @@ extension CollectionController: UICollectionViewDataSource {
         return UICollectionViewCell()
     }
     
-    
 }
-
-extension CollectionController: UICollectionViewDelegate {
-    
-}
-
-
