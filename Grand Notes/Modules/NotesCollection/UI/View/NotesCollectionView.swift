@@ -7,8 +7,20 @@
 
 import UIKit
 
-class NotesCollectionView: UIView, UICollectionViewDelegate, UICollectionViewDataSource {
+class NotesCollectionView: BaseView, UICollectionViewDelegate, UICollectionViewDataSource {
   
+    //TODO: Controller + ViewModel
+    
+    override func setupView() {
+        super.setupView()
+    }
+  
+    //nav controller's func
+    
+    @objc func addButtonPressed() {
+        print("add pressed")
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 1
     }

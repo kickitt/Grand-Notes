@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303433012546B89B007D0CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303433002546B89B007D0CEA /* ViewController.swift */; };
+		303433042546B8ED007D0CEA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303433032546B8ED007D0CEA /* BaseView.swift */; };
+		303433142547204D007D0CEA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303433132547204D007D0CEA /* CoreDataManager.swift */; };
+		3075F043253D73A600AEA08E /* NotesDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3075F041253D73A600AEA08E /* NotesDB.xcdatamodeld */; };
 		30CCDE3025357F8D00D393E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCDE2F25357F8D00D393E3 /* AppDelegate.swift */; };
 		30CCDE3925357F8F00D393E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CCDE3825357F8F00D393E3 /* Assets.xcassets */; };
 		30CCDE3C25357F8F00D393E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CCDE3A25357F8F00D393E3 /* LaunchScreen.storyboard */; };
 		30CCDE4E2535A56E00D393E3 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCDE4D2535A56E00D393E3 /* NavController.swift */; };
-		30CCDE512535A58600D393E3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCDE502535A58600D393E3 /* TableViewController.swift */; };
-		30CCDE542535A59C00D393E3 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCDE532535A59C00D393E3 /* CollectionViewController.swift */; };
 		30CCDE5E2535A99C00D393E3 /* NotesCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCDE5D2535A99B00D393E3 /* NotesCollectionController.swift */; };
 		30CCDE672535AB6F00D393E3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCDE662535AB6F00D393E3 /* Coordinator.swift */; };
 		30CCDE6D2535AB7F00D393E3 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCDE6C2535AB7F00D393E3 /* CoordinatorProtocol.swift */; };
@@ -24,14 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		303433002546B89B007D0CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		303433032546B8ED007D0CEA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		303433132547204D007D0CEA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3075F042253D73A600AEA08E /* NotesDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesDB.xcdatamodel; sourceTree = "<group>"; };
 		30CCDE2C25357F8D00D393E3 /* Grand Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grand Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CCDE2F25357F8D00D393E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30CCDE3825357F8F00D393E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30CCDE3B25357F8F00D393E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30CCDE3D25357F8F00D393E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CCDE4D2535A56E00D393E3 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
-		30CCDE502535A58600D393E3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		30CCDE532535A59C00D393E3 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		30CCDE5D2535A99B00D393E3 /* NotesCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCollectionController.swift; sourceTree = "<group>"; };
 		30CCDE662535AB6F00D393E3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		30CCDE6C2535AB7F00D393E3 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 		30CCDE492535A24900D393E3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				303433132547204D007D0CEA /* CoreDataManager.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 		30CCDE4A2535A24D00D393E3 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				3075F041253D73A600AEA08E /* NotesDB.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -122,8 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				30CCDE4D2535A56E00D393E3 /* NavController.swift */,
-				30CCDE502535A58600D393E3 /* TableViewController.swift */,
-				30CCDE532535A59C00D393E3 /* CollectionViewController.swift */,
+				303433002546B89B007D0CEA /* ViewController.swift */,
+				303433032546B8ED007D0CEA /* BaseView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -316,14 +322,16 @@
 				30CCDE6D2535AB7F00D393E3 /* CoordinatorProtocol.swift in Sources */,
 				30CCDE3025357F8D00D393E3 /* AppDelegate.swift in Sources */,
 				30CCDE4E2535A56E00D393E3 /* NavController.swift in Sources */,
+				303433012546B89B007D0CEA /* ViewController.swift in Sources */,
 				30CCDE672535AB6F00D393E3 /* Coordinator.swift in Sources */,
 				30CCDE75253973D200D393E3 /* NotesCollectionCoordinator.swift in Sources */,
 				30CCDE712535AB9D00D393E3 /* AppCoordinator.swift in Sources */,
 				30CCDE7C2539752E00D393E3 /* ViewModelProtocol.swift in Sources */,
-				30CCDE512535A58600D393E3 /* TableViewController.swift in Sources */,
 				30CCDE82253976D000D393E3 /* NotesCollectionView.swift in Sources */,
 				30CCDE5E2535A99C00D393E3 /* NotesCollectionController.swift in Sources */,
-				30CCDE542535A59C00D393E3 /* CollectionViewController.swift in Sources */,
+				303433042546B8ED007D0CEA /* BaseView.swift in Sources */,
+				303433142547204D007D0CEA /* CoreDataManager.swift in Sources */,
+				3075F043253D73A600AEA08E /* NotesDB.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +525,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3075F041253D73A600AEA08E /* NotesDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3075F042253D73A600AEA08E /* NotesDB.xcdatamodel */,
+			);
+			currentVersion = 3075F042253D73A600AEA08E /* NotesDB.xcdatamodel */;
+			path = NotesDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 30CCDE2425357F8D00D393E3 /* Project object */;
 }
